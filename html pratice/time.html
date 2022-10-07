@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>time</title>
+    <link rel="stylesheet" href="timestyle.css">
+</head>
+<body>
+    <section>
+        <div class="main">
+            <div class="ist">
+                <p id="differ1"></p>
+
+            </div>
+            <div class="indian"> <p id="differ2"></p></div>
+            <div class="differ">GMT</div>
+        </div>
+    </section>
+    <script>
+        currentTime=new Date()
+        utcHours=currentTime.getUTCHours()
+        utcMints=currentTime.getUTCMinutes()
+
+        hours=currentTime.getHours()
+        mints=currentTime.getMinutes()
+        differHour=(currentTime.getHours()-utcHours)
+        differmins=Math.abs(currentTime.getMinutes()-utcMints)
+        document.getElementById("differ1").innerHTML= differHour
+        document.getElementById("differ2").innerHTML= differmins
+        // document.querySelector(".ist")
+        
+    </script>
+</body>
+</html>

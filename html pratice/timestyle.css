@@ -1,0 +1,50 @@
+body{
+    background-color: aquamarine;
+}
+
+.main{
+    background-color: blanchedalmond;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.ist{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    border-radius: 50%;
+}
+.indian{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 106, 0);
+    border-radius: 50%;
+}
+.differ{
+    color: white;
+    width: 150px;
+    height: 150px;
+    background-color: rgb(255, 0, 123);
+    border-radius: 50%;
+    font-size: 50px;
+    font-weight: 900;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.ist p{
+    color: white;
+    font-size: 90px;
+    margin-top:20px;
+    padding-left: 55px;
+    font-weight: bold;
+}
+.indian p{
+    color: white;
+    font-size: 90px;
+    margin-top:20px;
+    padding-left: 30px;
+    font-weight: bold;
+}

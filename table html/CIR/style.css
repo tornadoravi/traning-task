@@ -1,0 +1,37 @@
+ 
+.nav{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    height: 10%;
+    background-color: purple;
+    border-radius: 90px;
+}
+.cir1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: orange;
+
+}
+.cir2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgb(60, 0, 255);
+
+}
+.main{
+
+display: flex;
+justify-content: center;
+
+}
+.eye{
+    margin-top: 10%;
+    width: 200px;
+    height: 200px;
+    background-color: chocolate;
+    border-radius:       ;
+    
+}

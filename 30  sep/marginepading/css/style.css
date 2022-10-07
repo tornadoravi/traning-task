@@ -1,0 +1,10 @@
+body{
+ width: 100vw;
+ height:100vh
+}
+.main{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(30, 0, 255);
+    padding: 100px;
+}

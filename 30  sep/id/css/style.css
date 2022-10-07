@@ -1,0 +1,44 @@
+
+ div#d1{
+    width: 200px;
+    height: 100px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size:20px ;
+    border:5px solid black;
+    margin-right: 15px;
+    float:left;
+
+ }
+ div#d2{
+    float:right;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(128, 87, 46);
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size:20px ;
+    border:5px solid black;
+ }
+ div#d3{
+    float:left;
+    width: 200px;
+    height: 100px;
+    background-color: rgb(255, 247, 0);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    font-size:20px ;
+    border:5px solid black;
+   
+ }
+ div#d2:hover{
+    margin: 10px;
+    padding: 20px;
+    background-color: chartreuse;
+    transition: 5s;
+    color: black;
+ }

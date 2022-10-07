@@ -1,0 +1,161 @@
+@import url("https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Poppins:ital,wght@0,600;1,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Kanit:wght@600&family=Noto+Serif:ital,wght@1,700&family=Poppins:ital,wght@0,600;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&family=Josefin+Sans&family=Kanit:wght@600&family=Lato&family=Nunito&family=Poppins:ital,wght@0,500;0,600;1,300&display=swap');
+
+body {
+  background-color: black;
+  font-family: "Kanit", sans-serif;
+
+}
+.main {
+  width: 1200px;
+  height: 1200px;
+  margin-top: 10%;
+  margin-left: 20%;
+
+  display: flex;
+  justify-content: left;
+  /* justify-content: space-around; */
+ 
+  border-radius: 20px;
+}
+.sidecard {
+  height: 100%;
+  width: 400px;
+  background-color: rgb(0, 108, 224);
+  border-top-left-radius:20px ;
+}
+.profilepic {
+  margin-top: 30px;
+  width: 400px;
+  height: 250px;
+  background-image: url("../image/avatar-portrait-young-caucasian-boy-man-round-frame-vector-cartoon-flat-illustration_551425-19.jpg");
+  background-size: 100%;
+  object-fit: cover;
+  background-position: center;
+}
+.name {
+    display: block;
+  margin-top: 40px;
+  text-transform: uppercase;
+  color: white;
+  text-align: center;
+  font-weight: bolder;
+  font-size: 30px;
+}
+.roll{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    border-bottom: 2px solid white;
+    border-bottom-width: 4px;
+    border-radius: 25%;
+    
+    
+}
+.maincard{
+ 
+  width: 800px;
+  height:100%;
+  background-color:rgb(255, 255, 255);
+  border-top-right-radius: 30px;
+
+}
+.phoneno{
+  color:white;
+  text-align: center;
+}
+.mail{
+  color:white;
+  text-align: center;
+}
+
+
+
+
+.title{
+  
+  font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    color: black;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 40px;
+
+}
+.education{
+  text-transform: uppercase;
+  margin: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+.educationcontant{
+  position: r;
+  left:200px;
+  text-transform: uppercase;
+  font-size: 20px;
+  
+}
+.achivements{
+  text-transform: uppercase;
+  margin: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+}
+.achivementscontant{
+  position: relative;
+  left:200px;
+  text-transform: uppercase;
+  font-size: 20px;
+
+}
+.skils{
+  text-transform: uppercase;
+  margin: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+
+}
+.skilscontant{
+  position: relative;
+  left:200px;
+  text-transform: uppercase;
+  font-size: 20px;
+
+}
+.project{
+  text-transform: uppercase;
+  margin: 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+
+}
+.projectcontant{
+  position: relative;
+  left:200px;
+  text-transform: uppercase;
+  font-size: 20px;
+
+}
+.protitle{
+  margin-left: 2%;
+  color: white;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: 'Abyssinica SIL', serif;
+}
+
+.contant span{
+  border: 2px solid white;
+  letter-spacing: 2px;
+}
+.profiledetails{
+  margin-left: 2%;
+  color: white;
+  font-size: 15px;
+
+}
